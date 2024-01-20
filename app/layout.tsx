@@ -9,8 +9,8 @@ import 'swiper/css';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'FDRCSI-DRR',
-  description: 'Amicross',
+  title: 'Corta Draft',
+  description: 'Anuba Studio',
 }
 
 export default function RootLayout({
