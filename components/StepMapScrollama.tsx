@@ -244,7 +244,7 @@ export default function StepMapScrollama(props: any) {
         <Scrollama onStepEnter={onStepEnter}>
           <Step data={1} key={1}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5 lg:ml-auto">
-              <h3 className="font-bold uppercase text-justify mb-2 text-xl">
+              <h3 className="font-bold uppercase text-justify mb-2 ">
                 {bahasa === "EN" ? (
                   <>Lampung province</>
                 ) : (
@@ -292,7 +292,7 @@ export default function StepMapScrollama(props: any) {
           </Step>
           <Step data={2} key={2}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5">
-              <h3 className="font-bold uppercase text-justify mb-2 text-xl">
+              <h3 className="font-bold uppercase text-justify mb-2 ">
                 {bahasa === "EN" ? (
                   <>TANGGAMUS District</>
                 ) : (
@@ -313,7 +313,7 @@ export default function StepMapScrollama(props: any) {
                   )}
                 </a>
               </p>
-              <p className="text-justify text-xl">
+              <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
                     Tanggamus Regency has an area of 4,654.98 Km² and with a
@@ -344,7 +344,7 @@ export default function StepMapScrollama(props: any) {
           </Step>
           <Step data={3} key={3}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5 lg:ml-auto">
-              <h3 className="font-bold uppercase text-justify mb-2 text-xl">
+              <h3 className="font-bold uppercase text-justify mb-2 ">
                 {bahasa === "EN" ? <>Flood Risk</> : <> Risiko Banjir</>}
               </h3>
               <Image 
@@ -357,7 +357,7 @@ export default function StepMapScrollama(props: any) {
                   {bahasa === "EN" ? <>RBI BNPB</> : <>RBI BNPB</>}
                 </a>
               </p>
-              <p className="text-justify text-xl">
+              <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
                     Based on BNPB inaRISK risk assessment, Tanggamus Regency
@@ -376,7 +376,7 @@ export default function StepMapScrollama(props: any) {
           </Step>
           <Step data={4} key={4}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5">
-              <h3 className="font-bold uppercase text-justify mb-2 text-xl">
+              <h3 className="font-bold uppercase text-justify mb-2 ">
                 {bahasa === "EN" ? (
                   <>Assisted Village in Tanggamus . district</>
                 ) : (
@@ -388,7 +388,7 @@ export default function StepMapScrollama(props: any) {
                 className="w-full" 
                 alt=""
               />
-              <p className="text-justify text-xl">
+              <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
                     The American Red Cross and PMI implemented this program in
@@ -417,14 +417,14 @@ export default function StepMapScrollama(props: any) {
                 className="flourish-embed flourish-table"
                 width="100%"
                 height="500"
-                scrolling="no"
+                scrolling="yes"
                 src={`https://public.flourish.studio/visualisation/3919568/embed`}
               />
             </div>
           </Step>
           <Step data={5} key={5}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5 lg:ml-auto">
-              <h3 className="font-bold uppercase text-justify mb-2 text-xl">
+              <h3 className="font-bold uppercase text-justify mb-2 ">
                 {bahasa === "EN" ? (
                   <>East Nusa Tenggara (NTT) Province</>
                 ) : (
@@ -445,7 +445,7 @@ export default function StepMapScrollama(props: any) {
                   )}
                 </a>
               </p>
-              <p className="text-justify text-xl">
+              <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
                     The NTT region consists of 12 regencies/cities. Process the
@@ -483,7 +483,7 @@ export default function StepMapScrollama(props: any) {
           </Step>
           <Step data={6} key={6}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5">
-              <h3 className="font-bold uppercase text-justify mb-2 text-xl">
+              <h3 className="font-bold uppercase text-justify mb-2 ">
                 {bahasa === "EN" ? (
                   <>Manggarai Regency</>
                 ) : (
@@ -504,7 +504,7 @@ export default function StepMapScrollama(props: any) {
                   )}
                 </a>
               </p>
-              <p className="text-justify text-xl">
+              <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
                     Manggarai Regency is a highland area which dominated by the
@@ -535,7 +535,7 @@ export default function StepMapScrollama(props: any) {
           </Step>
           <Step data={7} key={7}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5 lg:ml-auto">
-              <h3 className="font-bold uppercase text-justify mb-2 text-xl">
+              <h3 className="font-bold uppercase text-justify mb-2 ">
                 {bahasa === "EN" ? <>Flood Risk</> : <>Risiko Banjir</>}
               </h3>
               <Image 
@@ -548,7 +548,7 @@ export default function StepMapScrollama(props: any) {
                   {bahasa === "EN" ? <>RBI BNPB</> : <>RBI BNPB</>}
                 </a>
               </p>
-              <p className="text-justify text-xl">
+              <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
                     Based on BNPB inaRISK risk assessment, Manggarai district
@@ -568,7 +568,7 @@ export default function StepMapScrollama(props: any) {
           </Step>
           <Step data={8} key={8}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5">
-              <h3 className="font-bold uppercase text-justify mb-2 text-xl">
+              <h3 className="font-bold uppercase text-justify mb-2 ">
                 {bahasa === "EN" ? (
                   <>Assisted Village in Manggarai kabupaten district</>
                 ) : (
@@ -580,7 +580,7 @@ export default function StepMapScrollama(props: any) {
                 className="w-full" 
                 alt=""
               />
-              <p className="text-justify text-xl">
+              <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
                     The American Red Cross and PMI implemented this program in

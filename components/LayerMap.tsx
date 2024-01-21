@@ -30,14 +30,14 @@ export default function layerMap(map: any, data: any) {
       speed: 0.5,
     },
     desaTanggamus: {
-      center: { lon: 120.512865, lat: -8.566629 },
+      center: { lon: 104.4957, lat: -5.50425 },
       zoom: 11.87,
       pitch: 60.0,
       bearing: 101.08,
       speed: 0.5,
     },
     ntt: {
-      center: { lon: 120.693336, lat: -8.558509},
+      center: { lon: 120.53556, lat: -8.71461 },
       zoom: 8.98,
       pitch: 0.0,
       bearing: 0.0,
