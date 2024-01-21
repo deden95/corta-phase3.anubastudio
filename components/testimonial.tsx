@@ -57,6 +57,15 @@ export default function TestimonialArea(props: any) {
 
    return (
       <>
+       <div className="mt-20 mb-5">
+       <iframe
+            src="https://time.graphics/embed?v=1&id=47134"
+        frameBorder="0"
+        width="100%"
+        height="600"
+        
+      />
+      </div>
          <div className="tp-testimonial-area pt-20 sm:pt-32 md:pt-48 lg:pt-56 pb-20 sm:pb-32 md:pb-48 lg:pb-56 bg-cover bg-center"
             style={{ backgroundImage: `url(${bg_img})` }}>
             <div className="container mx-auto mb-3">
