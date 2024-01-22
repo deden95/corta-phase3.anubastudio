@@ -113,12 +113,17 @@ export default function Navbar(props: any) {
             >
                 {translate === "EN" ? <>Home</> : <> Beranda</>}
             </Link>
-            <Link 
-              href="#projectBackground"
-              className={`${pathname === '/projectBackground' ? 'font-bold' : ''}`}
-            >
-                {translate === "EN" ? <>Project Background</> : <> Latar Belakang</>}
-            </Link>
+
+            {pathname != '/success-story' && (
+              <Link 
+                href="#projectBackground"
+                className={`${pathname === '/projectBackground' ? 'font-bold' : ''}`}
+              >
+                  {translate === "EN" ? <>Project Background</> : <> Latar Belakang</>}
+              </Link>
+            )}
+
+            {pathname != '/success-story' && (
             <Link 
               href="#peningkatanKapasitas"
               className={`${pathname === '/peningkatanKapasitas' ? 'font-bold' : ''}`}
@@ -129,12 +134,16 @@ export default function Navbar(props: any) {
                   <> Peningkatan Kapasitas</>
                 )}
             </Link>
+            )}
+
+            {pathname != '/success-story' && (
             <Link 
               href="#harapanKedepannya"
               className={`${pathname === '/harapanKedepannya' ? 'font-bold' : ''}`}
             >
                 {translate === "EN" ? <>Looking Forward</> : <> Harapan Kedepan</>}
             </Link>
+            )}
 
             <Listbox 
               value={selected} 
