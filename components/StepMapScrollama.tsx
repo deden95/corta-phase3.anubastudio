@@ -267,24 +267,20 @@ export default function StepMapScrollama(props: any) {
               </p>
               <p className="text-justify">
                 {bahasa === "EN" ? (
-                  <>
-                    Lampung Province has an area of 34.62 thousand square
-                    kilometers with a population density of 260 people per
-                    square kilometers in 2020. This figure is increasing based
-                    on 2010 Population Census data which recorded the density of
-                    The population of Lampung Province is 220 people per
-                    kilometer square footage and 192 inhabitants per square
-                    kilometer based on the Census Population 2000.
+                  <>                    
+                  The province of Lampung has an area of 34,623.8 thousand square kilometers according to the data
+                   from the Central Statistics Agency in 2022. 
+                   The population is 9,176,546 people, with a population density of 273.31 
+                   people per square kilometer in the year 2022. This figure has increased compared 
+                   to the 2020 Population Census data, which recorded a population density of 260 people per 
+                   square kilometer in the province of Lampung, and 220 people per square kilometer based on the 2010 Population Census.
                   </>
                 ) : (
                   <>
-                    Wilayah Provinsi Lampung memiliki luas sebesar 34,62 ribu
-                    kilometer persegi dengan kepadatan penduduk 260 jiwa per
-                    kilometer persegi pada tahun 2020. Angka ini meningkat
-                    berdasarkan data Sensus Penduduk 2010 yang mencatat
-                    kepadatan penduduk Provinsi Lampung sebanyak 220 jiwa per
-                    kilometer persegi dan 192 jiwa per kilometer persegi
-                    berdasarkan Sensus Penduduk 2000.
+                    Wilayah Provinsi Lampung memiliki luas sebesar 34.623,8 ribu kilometer persegi menurut data Badan Pusat satatistik tahun 2022 
+                    dan jumlah penduduk 9.176.546 jiwa dan kepadatan penduduk 273.31 jiwa per kilometer persegi pada tahun 2022. 
+                    Angka ini meningkat berdasarkan data Sensus Penduduk 2020 yang mencatat kepadatan penduduk Provinsi Lampung 
+                    sebanyak 260 jiwa per kilometer persegi dan 220 jiwa per kilometer persegi berdasarkan Sensus Penduduk 2010.
                   </>
                 )}
               </p>
@@ -316,27 +312,19 @@ export default function StepMapScrollama(props: any) {
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    Tanggamus Regency has an area of 4,654.98 Km² and with a
-                    population of 640,275 people (2020) with a density of
-                    population 137 people/km². Regional Disaster Management
-                    Agency (BPBD) of Tanggamus Regency states that there are 12
-                    sub-districts on Earth Begawi Jejama is included in the
-                    category prone to flood disasters and landslides. This is
-                    due to geographic location districts located in hilly areas
-                    accompanied by large rivers. jhjkhjbjbjbjbjbjjbj
+                    The Tanggamus Regency covers an area of 4,654.98 square kilometers with a population of 652,898 people (2020)
+                     and a population density of 225 people per square kilometer. The Tanggamus Regency Regional Disaster Management Agency (BPBD)
+                      states that there are 12 sub-districts in this region, located in the category vulnerable to floods and landslides.
+                       This is due to the geographical location of the regency, situated in hilly areas with large rivers.
                   </>
                 ) : (
                   <>
                     {" "}
-                    Kabupaten Tanggamus ini memiliki luas wilayah 4.654,98 Km²
-                    dan berpenduduk sebanyak 640.275 jiwa (2020) dengan
-                    kepadatan penduduk 137 jiwa/km². Badan Penanggulangan
-                    Bencana Daerah (BPBD) Kabupaten Tanggamus menyatakan ada 12
-                    kecamatan di Bumi Begawi Jejama ini yang masuk dalam
-                    katagori rawan bencana banjir dan tanah longsor.Hal ini
-                    disebabkan oleh lokasi geografis kabupaten yang berada
-                    diwilayah perbukitan disertai sungai-sungai yang berukuran
-                    besar.
+                    Kabupaten Tanggamus ini memiliki luas wilayah 4.654,98 Km² dan berpenduduk sebanyak 652.898 jiwa (2020)
+                     dengan kepadatan penduduk 225 jiwa/km². Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Tanggamus
+                      menyatakan ada 12 kecamatan di Bumi Begawi Jejama ini yang masuk dalam katagori rawan bencana banjir 
+                      dan tanah longsor.Hal ini disebabkan oleh lokasi geografis kabupaten yang berada diwilayah perbukitan 
+                      disertai sungai-sungai yang berukuran besar.
                   </>
                 )}
               </p>
@@ -448,34 +436,25 @@ export default function StepMapScrollama(props: any) {
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    The NTT region consists of 12 regencies/cities. Process the
-                    division of the territory that occurs makes an
-                    administrative area NTT Province in 2019 is divided into 21
-                    regencies and 1 The city is Kupang City, as the capital of
-                    the province of NTT which is located the western part of the
-                    island of Timor. Province with endemic Komodo dragon It has
-                    a land area of 47,931.54 km2. Based on data BPS in 2020, the
-                    total population in NTT Province reached 5,325,566 people
-                    with a population density of 111 people per km2. When viewed
-                    by gender, the population with female gender is higher than
-                    male especially with a sex ratio in NTT Province in 2020 of
-                    98.19 percent.
+                    The East Nusa Tenggara (NTT) region consists of 12 districts/cities. 
+                    The administrative division process in 2019 resulted in the NTT province 
+                    being divided into 21 districts and 1 city, namely Kupang City, 
+                    serving as the provincial capital located on the western part of Timor Island. 
+                    This province, known for its endemic Komodo wildlife, has a land area of 47,931.54 km². 
+                    According to the 2020 BPS data, the population of the NTT Province reached 5,466,285 people 
+                    with a population density of 114 people per km². When examined by gender, the female population 
+                    is higher than the male population, especially with a gender ratio in the NTT Province in 2020 at 98.19 percent.
                   </>
                 ) : (
                   <>
-                    Wilayah NTT terdiri atas 12 daerah Kabupaten/Kota. Proses
-                    pemekaran wilayah yang terjadi menjadikan wilayah
-                    administratif Provinsi NTT pada tahun 2019 terbagi atas 21
-                    Kabupaten dan 1 Kota yaitu Kota Kupang, sebagai ibukota
-                    provinsi NTT yang berada bagian barat Pulau Timor. Provinsi
-                    dengan satwa endemik Komodo ini memiliki luas wilayah darat
-                    47.931,54 km2. Berdasarkan data BPS tahun 2020, jumlah
-                    populasi di Provinsi NTT mencapai 5.325.566 jiwa dengan
-                    kepadatan penduduk sebesar 111 jiwa per km2. Jika dilihat
-                    berdasarkan jenis kelamin, penduduk dengan jenis kelamin
-                    perempuan lebih tinggi daripada laki-laki terutama dengan
-                    rasio jenis kelamin di Provinsi NTT tahun 2020 sebesar 98,19
-                    persen.
+                    Wilayah NTT terdiri atas 12 daerah Kabupaten/Kota. Proses pemekaran wilayah
+                     yang terjadi menjadikan wilayah administratif Provinsi NTT pada tahun 2019 
+                     terbagi atas 21 Kabupaten dan 1 Kota yaitu Kota Kupang, sebagai ibukota provinsi
+                     NTT yang berada bagian barat Pulau Timor. Provinsi dengan satwa endemik Komodo ini 
+                     memiliki luas wilayah darat 47.931,54 km2. Berdasarkan data BPS tahun 2020, jumlah 
+                     populasi di Provinsi NTT mencapai 5.466.285 jiwa dengan kepadatan penduduk sebesar 114 jiwa per km2.
+                     Jika dilihat berdasarkan jenis kelamin, penduduk dengan jenis kelamin perempuan lebih tinggi daripada laki-laki
+                     terutama dengan rasio jenis kelamin di Provinsi NTT tahun 2020 sebesar 98,19 perasen.
                   </>
                 )}
               </p>
@@ -519,15 +498,12 @@ export default function StepMapScrollama(props: any) {
                 ) : (
                   <>
                     {" "}
-                    Kabupaten Manggarai merupakan daerah dataran tinggi yang
-                    didominasi oleh bentuk permukaan daratan yang bergelombang
-                    dengan kemiringan lahan ≥40% (pegunungan) yaitu seluas
-                    38,36% dan kemiringan lahan antara 15%-40% yakni seluas
-                    55,41% dari luas wilayah Kabupaten Manggarai. Kabupaten
-                    Manggarai memiliki 12 sungai yang berpotensi banjir, dari
-                    beberapa sungai tersebut telah menyebabkan banjir dan
-                    mengakibatkan rusaknyanya fasilitas masyarakat dan fasilitas
-                    umum lainnya dengan 22 Kejadian pada tahun 2019.
+                    The Manggarai Regency is a highland area characterized by undulating landforms, 
+                    with land slopes ≥40% (mountains) covering an area of 38.36% and land slopes between 15%-40% covering 
+                    55.41% of the total area of the Manggarai Regency, which is 2,096.44 km². 
+                    The population of the regency is 318,115 with a population density of 152 per square kilometer. 
+                    Manggarai Regency has 12 rivers that are prone to flooding, and some of these rivers have caused floods, 
+                    resulting in damage to community facilities and other public amenities with 22 incidents in the year 2019.
                   </>
                 )}
               </p>

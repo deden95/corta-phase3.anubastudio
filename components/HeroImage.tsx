@@ -34,24 +34,26 @@ export default function HeroImage(props : Type) {
           )}
         </h1>
       </div>
-      <button className={`${style.btnVideo} inline-flex items-center bg-[#facc15] hover:bg-[#eab308] text-sm text-white py-3 px-5 rounded-full mt-8`}>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-          <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
-        </svg>
-        <span className="pl-1">
-          {bahasa === "EN" ? (
-            <>
-              Watch Video
-            </>
-          ) : (
-            <>
-                Lihat Video
-            </>
-          )}</span>
-      </button>
+      <Link href="?modal=true&url=https://www.youtube.com/embed/Gy-kSw0tdOM?controls=0">
+        <button className={`${style.btnVideo} inline-flex items-center bg-[#facc15] hover:bg-[#eab308] text-sm text-white py-3 px-5 rounded-full mt-8`}>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+            <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
+          </svg>
+          <span className="pl-1">
+            {bahasa === "EN" ? (
+              <>
+                Watch Video
+              </>
+            ) : (
+              <>
+                  Lihat Video
+              </>
+            )}</span>
+        </button>
+      </Link>
 
       <div className={style.heroCard}>
-        <Link href="https://corta-phase2.anubastudio.com/home">
+        <Link href="https://landing-page-amicross-v1.vercel.app/home">
           <div className="px-6 py-4 bg-white rounded-xl lg:mr-6 mr-2 cursor-pointer transform motion-reduce:transform-none hover:-translate-y-1 hover:scale-110 transition ease-in-out duration-300">
             <div className="text-sm font-bold">Pencapaian</div>
             <p className="text-gray-700 font-bold lg:text-xl text-sm">
@@ -68,17 +70,15 @@ export default function HeroImage(props : Type) {
             </p>
           </div>
         </Link>
-
-       
-        <Link href="/success-story">
+        
+        <Link href="https://success-corta.anubastudio.com/">
           <div className="px-6 py-4 bg-white rounded-xl lg:mr-6 mr-2 cursor-pointer transform motion-reduce:transform-none hover:-translate-y-1 hover:scale-110 transition ease-in-out duration-300">
             <div className="text-sm font-bold">Cerita</div>
             <p className="text-gray-700 font-bold lg:text-xl text-sm">
               Sukses
             </p>
           </div>
-        </Link>        
-
+        </Link>     
       </div>
     </div>
   );
