@@ -9,8 +9,8 @@ import 'swiper/css';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Corta Draft',
-  description: 'Anuba Studio',
+  title: 'Corta Phase-3',
+  description: 'Program PERTAMA-DAS 2022-2023',
 }
 
 export default function RootLayout({
