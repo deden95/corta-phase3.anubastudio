@@ -60,7 +60,7 @@ export default function TestimonialArea(props: any) {
    return (
       <>
          <div className="tp-testimonial-area pt-20 sm:pt-32 md:pt-48 lg:pt-56 pb-20 sm:pb-32 md:pb-48 lg:pb-56 bg-cover bg-center"
-            style={{ backgroundImage: `url(${bg_img})` }}>
+            style={{ backgroundImage: `url(${bg_img})` }} id="peningkatanKapasitas">
             <div className="container mx-auto mb-3" id="peningkatanKapasitas">
                <div className="flex items-end tp-testimonial-five-section-space lg:px-16 px-8">
                   <div className="w-full lg:w-8/12">
