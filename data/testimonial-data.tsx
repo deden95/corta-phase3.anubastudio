@@ -2,7 +2,7 @@ const testimonial_data = [
     {
         id: 1, 
         name: "Benjamin Evalent",
-        title: "WP Developer", 
+        title: "Anuba Developer", 
         count: 94, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
@@ -11,7 +11,7 @@ const testimonial_data = [
     {
         id: 2, 
         name: "Benjamin Evalent",
-        title: "WP Developer", 
+        title: "Anuba Developer", 
         count: 59, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
@@ -20,7 +20,7 @@ const testimonial_data = [
     {
         id: 3, 
         name: "Benjamin Evalent",
-        title: "WP Developer", 
+        title: "Anuba Developer", 
         count: 82, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
@@ -29,7 +29,7 @@ const testimonial_data = [
     {
         id: 4, 
         name: "Benjamin Evalent",
-        title: "WP Developer", 
+        title: "Anuba Developer", 
         count: 99, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
@@ -38,7 +38,7 @@ const testimonial_data = [
     {
         id: 5, 
         name: "Benjamin Evalent",
-        title: "WP Developer", 
+        title: "Anuba Developer", 
         count: 81, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
@@ -47,7 +47,7 @@ const testimonial_data = [
     {
         id: 6, 
         name: "Benjamin Evalent",
-        title: "WP Developer", 
+        title: "Anuba Developer", 
         count: 83, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
@@ -56,7 +56,7 @@ const testimonial_data = [
     {
         id: 7, 
         name: "Benjamin Evalent",
-        title: "WP Developer", 
+        title: "Anuba Developer", 
         count: 94, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
@@ -65,7 +65,7 @@ const testimonial_data = [
     {
         id: 8, 
         name: "Benjamin Evalent",
-        title: "WP Developer", 
+        title: "Anuba Developer", 
         count: 59, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
