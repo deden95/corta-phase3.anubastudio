@@ -106,7 +106,7 @@ export default function TestimonialArea(props: any) {
                                     <div className="tp-testimonial-five-top-info d-flex align-items-center">
                                        <div className="tp-testimonial-five-author-info">
                                           <h4>{item.name}</h4>
-                                          <span>{item.title}</span>
+                                          {/* <span>{item.title}</span> */}
                                        </div>
                                     </div>
                                     <div className="tp-testimonial-five-brand d-none d-sm-block">

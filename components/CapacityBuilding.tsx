@@ -1,25 +1,28 @@
 import testimonial_data from '../data/testimonial-data';
-import Image from 'next/image';
-import React, { useState, useEffect } from 'react';
-import { Navigation, Scrollbar } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Scrollbar } from 'swiper';
+import React, { useState } from 'react';
 
 const testimonial_content = {
    bg_img: "/assets/design/testi-bg.png",
    title_id: <>Peningkatan <span>Kapasitas</span></>,
-   title_en: <>Capacity  <span>Building</span></>
-}
-const { bg_img, title_id, title_en } = testimonial_content
+   title_en: <>Capacity  <span>Building</span></>,
+   next_id: <>Lihat Keterangan</>,
+   next_en: <>View Information</>
+};
+const { bg_img, title_id, title_en,next_en,next_id } = testimonial_content;
 
-// setting 
 const setting = {
    loop: true,
-   slidesPerView: 2.5,
+   slidesPerView: 2.2,
    spaceBetween: 20,
-   Pagination:true,
+   pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+   },
    breakpoints: {
       '1200': {
-         slidesPerView: 2.5,
+         slidesPerView: 2.2,
       },
       '992': {
          slidesPerView: 1.5,
@@ -34,7 +37,6 @@ const setting = {
          slidesPerView: 1,
       },
    },
-   
    scrollbar: {
       el: ".tp-scrollbar",
       clickable: true,
@@ -43,11 +45,12 @@ const setting = {
       nextEl: '.test-prev',
       prevEl: '.test-next',
    },
-}
+};
 
-export default function TestimonialArea(props: any) {
+const TestimonialArea = (props: { onSelectLanguage: string }) => {
    const bahasa = props.onSelectLanguage;
    const [isDragged, setIsDragged] = useState(false);
+   const [activeIndex, setActiveIndex] = useState(-1);
 
    const handleSlideChange = () => {
       setIsDragged(true);
@@ -55,6 +58,10 @@ export default function TestimonialArea(props: any) {
 
    const handleTransitionEnd = () => {
       setIsDragged(false);
+   };
+
+   const toggleDescription = (index: number) => {
+      setActiveIndex(index === activeIndex ? -1 : index);
    };
 
    return (
@@ -73,18 +80,18 @@ export default function TestimonialArea(props: any) {
                   <div className="lg:w-4/12 flex items-center justify-start lg:justify-end">
                      <div className="tp-testimonial-five-arrow flex items-center">
                         <div className="test-next mr-2">
-                              <button className="bg-gray-200 p-3.5 rounded-full">
-                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
-                                 </svg>
-                              </button>
+                           <button className="bg-gray-200 p-3.5 rounded-full">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+                              </svg>
+                           </button>
                         </div>
                         <div className="test-prev">
-                              <button className="bg-gray-200 p-3.5 rounded-full">
-                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                                 </svg>
-                              </button>
+                           <button className="bg-gray-200 p-3.5 rounded-full">
+                              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+                                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                              </svg>
+                           </button>
                         </div>
                      </div>
                   </div>
@@ -92,47 +99,50 @@ export default function TestimonialArea(props: any) {
             </div>
             <div className="container-fluid p-0">
                <div className="row g-0">
-                     <div className="col-12">
-                        <div className="tp-testimonial-five-slider-section">
+                  <div className="col-12">
+                     <div className="tp-testimonial-five-slider-section">
                         <Swiper
                            {...setting}
-                           onSliderMove={handleSlideChange}
+                           onSlideChange={handleSlideChange}
                            onTransitionEnd={handleTransitionEnd}
                            modules={[Navigation, Scrollbar]}
-                           className={`swiper-container testimonial-five-slider-active ${isDragged ? "dragged" : ""
-                              }`}
+                           className={`swiper-container testimonial-five-slider-active ${isDragged ? "dragged" : ""}`}
                         >
-                           {testimonial_data.map((item, i) =>
+                           {testimonial_data.map((item, i) => (
                               <SwiperSlide key={i} className="tp-testimonial-five-item">
                                  <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                                     <div className="tp-testimonial-five-top-info d-flex align-items-center">
                                        <div className="tp-testimonial-five-author-info">
-                                          <h4>{item.name}</h4>
-                                          <span>{item.title}</span>
+                                          <h4>{bahasa === "EN" ? item.name_en : item.name}</h4>
                                        </div>
                                     </div>
                                     <div className="tp-testimonial-five-brand d-none d-sm-block">
                                        <img
-                                          className="w-full aspect-video youtube mt-5"                                  
-                                          src={item.url}                                        
+                                          className="w-full aspect-video youtube mt-5"
+                                          src={item.url}
+                                          alt="testimonial"
                                        />
                                     </div>
                                  </div>
                                  <div className="tp-testimonial-five-content">
-                                    <p>
-                                       {bahasa === "EN" ? item.description_en : item.description_id}
-                                    </p>
+                                    <button className=" items-center bg-[#FC0002] hover:bg-[#FC0002] text-sm text-white py-3 px-5 rounded-full" onClick={() => toggleDescription(i)}> {bahasa === "EN" ? next_en : next_id}</button>
+                                    {activeIndex === i && (
+                                       <p>
+                                          {bahasa === "EN" ? item.description_en : item.description_id}
+                                       </p>
+                                    )}
                                  </div>
                               </SwiperSlide>
-                           )
-                           }
+                           ))}
                         </Swiper>
-                           <div className="tp-scrollbar"></div>
-                        </div>
+                        <div className="tp-scrollbar"></div>
                      </div>
+                  </div>
                </div>
             </div>
          </div>
       </>
    );
 };
+
+export default TestimonialArea;

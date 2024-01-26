@@ -767,7 +767,7 @@ html {
   overflow: hidden;
 }
 .tp-testimonial-five-wrapper {
-  padding: 30px 70px 30px 60px;
+  padding: 30px 10px 0px 10px;
   background: #f7f9fb;
   border-radius: 16px;
 }
@@ -791,8 +791,8 @@ html {
 }
 .tp-testimonial-five-author-info h4 {
   font-weight: 700;
-  font-size: 24px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 30px;
 }
 .tp-testimonial-five-author-info span {
   font-weight: 400;
@@ -806,7 +806,7 @@ html {
  }
 }
 .tp-testimonial-five-content {
-  padding: 40px 60px 50px 60px;
+  padding: 20px 10px 20px 10px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .tp-testimonial-five-content {
@@ -820,7 +820,7 @@ html {
 }
 .tp-testimonial-five-content p {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 32px;
   color: #5f6168;
   padding-right: 30px;
@@ -976,4 +976,8 @@ html {
 }
 .vidio-atas {
   margin-top: 65px;
+}
+.swiper-android .swiper-slide, .swiper-wrapper {
+  padding: 10px;
+  transform: translate3d(0px,0,0);
 }
