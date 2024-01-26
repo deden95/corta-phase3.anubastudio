@@ -767,7 +767,7 @@ html {
   overflow: hidden;
 }
 .tp-testimonial-five-wrapper {
-  padding: 20px  10px 0px 10px;
+  padding: 30px 70px 30px 60px;
   background: #f7f9fb;
   border-radius: 16px;
 }
@@ -861,7 +861,7 @@ html {
 }
 .testimonial-five-slider-active {
   margin: 0px -420px;
-  padding-bottom: 40px;
+  padding-bottom: 60px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
   .testimonial-five-slider-active {
