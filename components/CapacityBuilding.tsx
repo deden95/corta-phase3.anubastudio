@@ -14,17 +14,18 @@ const { bg_img, title_id, title_en } = testimonial_content
 // setting 
 const setting = {
    loop: true,
-   slidesPerView: 4,
-   spaceBetween: 30,
+   slidesPerView: 2.5,
+   spaceBetween: 20,
+   Pagination:true,
    breakpoints: {
       '1200': {
-         slidesPerView: 4,
+         slidesPerView: 2.5,
       },
       '992': {
-         slidesPerView: 3,
+         slidesPerView: 1.5,
       },
       '768': {
-         slidesPerView: 3,
+         slidesPerView: 1.5,
       },
       '576': {
          slidesPerView: 1,
@@ -33,6 +34,7 @@ const setting = {
          slidesPerView: 1,
       },
    },
+   
    scrollbar: {
       el: ".tp-scrollbar",
       clickable: true,
@@ -110,11 +112,9 @@ export default function TestimonialArea(props: any) {
                                        </div>
                                     </div>
                                     <div className="tp-testimonial-five-brand d-none d-sm-block">
-                                       <iframe
-                                          className="w-full aspect-video youtube mt-5"
-                                          title="vimeo-player"
-                                          src={item.url}
-                                          allowFullScreen
+                                       <img
+                                          className="w-full aspect-video youtube mt-5"                                  
+                                          src={item.url}                                        
                                        />
                                     </div>
                                  </div>

@@ -6,7 +6,7 @@ const testimonial_data = [
         count: 94, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
-        url: "https://www.youtube.com/embed/Gy-kSw0tdOM?controls=0",
+        url: "https://success-corta.anubastudio.com/public/images/media/1706252499WhatsApp Image 2023-12-18 at 11.10.10_d89d0e1c.jpg",
     },
     {
         id: 2, 
@@ -15,7 +15,7 @@ const testimonial_data = [
         count: 59, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
-        url: "https://www.youtube.com/embed/Gy-kSw0tdOM?controls=0",
+        url: "https://success-corta.anubastudio.com/public/images/media/1706252499WhatsApp Image 2023-12-18 at 11.10.10_d89d0e1c.jpg",
     },
     {
         id: 3, 
@@ -24,7 +24,7 @@ const testimonial_data = [
         count: 82, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
-        url: "https://www.youtube.com/embed/Gy-kSw0tdOM?controls=0",
+        url: "https://success-corta.anubastudio.com/public/images/media/1706252499WhatsApp Image 2023-12-18 at 11.10.10_d89d0e1c.jpg",
     },
     {
         id: 4, 
@@ -33,7 +33,7 @@ const testimonial_data = [
         count: 99, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
-        url: "https://www.youtube.com/embed/Gy-kSw0tdOM?controls=0",
+        url: "https://success-corta.anubastudio.com/public/images/media/1706252499WhatsApp Image 2023-12-18 at 11.10.10_d89d0e1c.jpg",
     },
     {
         id: 5, 
@@ -42,7 +42,7 @@ const testimonial_data = [
         count: 81, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
-        url: "https://www.youtube.com/embed/Gy-kSw0tdOM?controls=0",
+        url: "https://success-corta.anubastudio.com/public/images/media/1706252499WhatsApp Image 2023-12-18 at 11.10.10_d89d0e1c.jpg",
     },
     {
         id: 6, 
@@ -51,7 +51,7 @@ const testimonial_data = [
         count: 83, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
-        url: "https://www.youtube.com/embed/Gy-kSw0tdOM?controls=0",
+        url: "https://success-corta.anubastudio.com/public/images/media/1706252499WhatsApp Image 2023-12-18 at 11.10.10_d89d0e1c.jpg",
     },
     {
         id: 7, 
@@ -60,7 +60,7 @@ const testimonial_data = [
         count: 94, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
-        url: "https://www.youtube.com/embed/Gy-kSw0tdOM?controls=0",
+        url: "https://success-corta.anubastudio.com/public/images/media/1706252499WhatsApp Image 2023-12-18 at 11.10.10_d89d0e1c.jpg",
     },
     {
         id: 8, 
@@ -69,7 +69,7 @@ const testimonial_data = [
         count: 59, 
         description_en: <>“Business growth is a point a business reaches where it expands and requires more avenues to generate a profit. This can happen when a company increases revenue.”</>,
         description_id: <>“Pertumbuhan bisnis adalah titik dimana bisnis berkembang dan membutuhkan lebih banyak cara untuk menghasilkan keuntungan. Hal ini dapat terjadi ketika suatu perusahaan meningkatkan pendapatannya.”</>,
-        url: "https://www.youtube.com/embed/Gy-kSw0tdOM?controls=0",
+        url: "https://success-corta.anubastudio.com/public/images/media/1706252499WhatsApp Image 2023-12-18 at 11.10.10_d89d0e1c.jpg",
     },
 ]
 export default testimonial_data
