@@ -860,7 +860,7 @@ html {
  }
 }
 .testimonial-five-slider-active {
-  margin: 0px -420px;
+  /* margin: 0px -420px; */
   padding-bottom: 60px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
