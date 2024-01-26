@@ -29,17 +29,17 @@ export default function ProjectBackground(props: any) {
             <p className="subtitle p-4 lg:p-10">
               {bahasa === "EN" ? (
                   <>
-                    Building community capacity and readiness in responding to disasters and strengthening PMI institutional capacity in providing basic community needs in emergency situations through the Community Disaster Preparedness Program through Sustainable and Inclusive Disaster Risk Reduction (Fostering Disaster-Ready Communities through Sustainable and Inclusive Disaster Risk Reduction).
+                    The Indonesian Red Cross (PMI), with support from the American Red Cross and Margaret A. Cargill Philanthropies (MACP), continues the Community-Based Disaster Risk Reduction Program, especially in river basin areas, through the CoRTA Project (Community Ready To Act). The aim is to enhance community awareness and capacity to respond to potential disasters, particularly in river basin areas.
                      <br></br>
-                     <br></br>
-                     This program was implemented in two provinces involving seven communities in Tanggamus Regency, Lampung Province and five communities in West Manggarai Regency, East Nusa Tenggara Province.
+                     <br></br>                     
+                    This program represents the third phase of the Community-Based Disaster Risk Reduction Program (CBDRR) known as FIRST - DAS, implemented in two provinces involving seven villages in Tanggamus Regency, Lampung Province, and five villages in Manggarai Regency, East Nusa Tenggara Province.
                   </>
                 ) : (
                   <>
-                    Membangun kapasitas dan kesiapan masyarakat dalam merespon bencana serta memperkuat kapasitas kelembagaan PMI dalam menyediakan kebutuhan dasar masyarakat pada kondisi darurat melalui program Program Masyarakat Siaga Bencana Melalui Pengurangan Risiko Bencana Berkelanjutan dan Inklusif (Fostering Disaster-Ready Communities through Sustainable and Inclusive Disaster Risk Reduction).
+                   Palang Merah Indonesia (PMI) dengan dukungan Palang Merah Amerika dan Margaret A. Cargill Philanthropies (MACP) melanjutkan Program Pengurangan Resiko Bencana Berbasis Masyarakat khususnya di wilayah Daerah Aliran Sungai (DAS) melalui Proyek CoRTA (Community Ready To Act) atau masyarakat Siap Aksi dengan tujuan untuk meningkatkan kesadaran dan kapasitas masyarakat untuk menghadapi potensi bencana , khususnya di daerah aliran sungai. 
                     <br></br>
                     <br></br>
-                    Program ini dilaksanakan di dua provinsi dengan melibatkan tujuh komunitas di Kabupaten Tanggamus, Provinsi Lampung dan lima komunitas di Kabupaten Manggarai Barat, Provinsi Nusa Tenggara Timur.
+                    Program ini merupakan Fase ketiga dari Program Pengurangan Resiko Berbasis Masyarakat (Community based Disaster Risk Reduction)  PERTAMA – DAS  yang dilaksanakan di dua Provinsi yang melibatkan tujuh desa di Kabupaten Tanggamus , Provinsi Lampung dan lima desa di Kabupaten Manggarai, Provinsi Nusa Tenggara Timur.
                   </>
                 )}
             </p>

@@ -46,7 +46,7 @@ export default function Home(props: any) {
                   </>
                 )}
             </p>
-            <Link href="?modal=true&url=https://www.youtube.com/embed/eFIBOVXilK4?si=3KepkqAMoBXwfGIY?controls=0">
+            {/* <Link href="?modal=true&url=https://www.youtube.com/embed/eFIBOVXilK4?si=3KepkqAMoBXwfGIY?controls=0">
               <button className="inline-flex items-center bg-red-custom__shadow text-sm text-white py-3 px-5 rounded-full mt-8">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
                   <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
@@ -62,16 +62,22 @@ export default function Home(props: any) {
                     </>
                   )}</span>
               </button>
-            </Link>
+            </Link> */}
           </div>
 
           <div className="w-full sm:w-1/2 mt-4 lg:mt-0">
-            <Image
+            {/* <Image
               src={HomeImage}
               alt="Home"
               width={550}
               className="lg:absolute lg:right-0"
-            />
+            /> */}
+          <div className="vidio-atas">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/c1vQhB34h9U?si=deZ4PitSaAwL69pG" 
+            title="YouTube video player" frameBorder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowFullScreen/>
+          </div>
           </div>
         </div>
       </div>
