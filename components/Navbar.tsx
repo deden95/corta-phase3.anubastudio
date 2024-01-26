@@ -145,6 +145,13 @@ export default function Navbar(props: any) {
             </Link>
             )}
 
+            <Link 
+              href="https://success-corta.anubastudio.com/"
+              className={`${pathname === '/' ? 'font-bold' : ''}`}
+            >
+                {translate === "EN" ? <>Success Story</> : <> Kisah Sukses</>}
+            </Link>
+
             <Listbox 
               value={selected} 
               onChange={handleTranslate}>
