@@ -50,10 +50,10 @@ export default function ProjectBackground(props: any) {
         </div>
       </div>
       <iframe
-        src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1EAYHjrSesqOF57_aK9-pfYPC8h20fyxXF9hyxDlVq00&font=Default&lang=id&initial_zoom=2&height=650"
+        src="https://uploads.knightlab.com/storymapjs/1cfa16f48d85109fef35263ce2824247/anubastudio/index.html?"
         frameBorder="0"
         width="100%"
-        height="850"
+        height="800"
       />
       
     </div>
