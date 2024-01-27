@@ -25,10 +25,10 @@ const setting = {
          slidesPerView: 2.2,
       },
       '992': {
-         slidesPerView: 1.5,
+         slidesPerView: 1.3,
       },
       '768': {
-         slidesPerView: 1.5,
+         slidesPerView: 1.3,
       },
       '576': {
          slidesPerView: 1,
