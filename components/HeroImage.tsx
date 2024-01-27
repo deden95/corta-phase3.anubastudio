@@ -34,7 +34,7 @@ export default function HeroImage(props : Type) {
           )}
         </h1>
       </div>
-      <Link href="?modal=true&url=https://www.youtube.com/embed/Gy-kSw0tdOM?controls=0">
+      <Link href="?modal=true&url=https://www.youtube.com/embed/c1vQhB34h9U?si=aJLIW_K-QhDmznhK?controls=0">
         <button className={`${style.btnVideo} inline-flex items-center bg-[#facc15] hover:bg-[#eab308] text-sm text-white py-3 px-5 rounded-full mt-8`}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
             <path fillRule="evenodd" d="M4.5 5.653c0-1.427 1.529-2.33 2.779-1.643l11.54 6.347c1.295.712 1.295 2.573 0 3.286L7.28 19.99c-1.25.687-2.779-.217-2.779-1.643V5.653Z" clipRule="evenodd" />
