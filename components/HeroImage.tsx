@@ -64,9 +64,9 @@ export default function HeroImage(props : Type) {
 
         <Link href="/2022-2023">
           <div className="px-6 py-4 bg-white rounded-xl lg:mr-6 mr-2 cursor-pointer transform motion-reduce:transform-none hover:-translate-y-1 hover:scale-110 transition ease-in-out duration-300">
-            <div className="text-sm font-bold">Pencapaian</div>
+            <div className="text-sm font-bold">2022-2023</div>
             <p className="text-gray-700 font-bold lg:text-xl text-sm">
-              2022-2023
+              Lihat
             </p>
           </div>
         </Link>
