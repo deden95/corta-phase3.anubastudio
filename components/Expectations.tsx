@@ -6,7 +6,7 @@ export default function ProjectBackground(props: any) {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-16 scroll-animation" id="harapanKedepannya">
-        <div className="title text-center pt-5 lg:pt-20">
+        <div className="title text-center pt-5 lg:pt-5">
           {bahasa === "EN" ? (
             <>
               Looking Forward
@@ -19,12 +19,15 @@ export default function ProjectBackground(props: any) {
         </div>
         <div className="flex flex-col sm:flex-row">
           <div className="w-full sm:w-1/2 p-4 lg:pt-12">
-            <div className="inline-flex items-center">
-              <Image
+            {/* <div className="inline-flex items-center"> */}
+            <div className="items-center mb-20">
+              {/* <Image
                 src={ExpectionsImage}
                 alt="Increase"
                 width={500}
-              />
+              /> */}
+              <iframe width="100%" height="300" src="https://www.youtube.com/embed/Iq4MZE_NCFg?si=GEZxaxfnrDfhQWjA" 
+              allowFullScreen/>
             </div>
           </div>
 
