@@ -18,9 +18,8 @@ const testimonial_data = [
         name_en: 'TRAINING ON EARLY WARNING, EARLY ACTION, EQUIPMENT, AND DEVICES',  
         count: 94, 
         description_en: <>This training discusses the management and bookkeeping of Joint Business Groups and regulations related to activities designed in villages/urban neighborhoods. Participants are divided based on their respective villages/neighborhoods.
-
         Participants, in addition to being equipped with knowledge, also engage in practical food processing such as processing cashew nuts, tamarind, and skipjack tuna into syrup, shredded meat, candy, and nuggets. The participants' enthusiasm is evident from their seriousness in the activities. The processed products are not done haphazardly but are packaged well. In addition, participants engage in discussions about managing the bookkeeping of Joint Business Groups and regulations related to activities designed in villages/urban neighborhoods. Participants are divided based on their respective villages/neighborhoods and discuss regulations, etc. This activity is facilitated by PKSPL IPB University.
-                          </>,
+                        </>,
         description_id: <>Pelatihan ini membahastentang pengelolaan dan pembukuan kelompok usaha Bersama dan regulasi terkait kegiatan yang dirancang di desa/kelurahan. Peserta dibagi berdasarkan desa-kelurahan masing - masing
         Peserta selain dibekali pengetahuan juga banyak melakukan praktek pengolahan pangan contohnya  pengolahan jambu mete, asam jawa, dan ikan cakalang menjadi sirup, abon, permen dan naget. Antusias perserta sangat nampak dari keseriusan dalam kegiatan. Produk yang diolah tidak asal-asalan tetapi coba dikemas dengan baik. Selain itu peserta melakukan diskusi tentang mengelola pembukuan kelompok usaha Bersama dan regulasi terkait kegiatan yang dirancang di desa/kelurahan. Peserta dibagi berdasarkan desa-kelurahan masing-masing dan berdiskusi terkait peraturan, dsb. Kegiatan ini difasilitasi oleh PKSPL IPB University</>,
         url: "https://success-corta.anubastudio.com/public/images/media/1706292662DSCF1628.jpg",

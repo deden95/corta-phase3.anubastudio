@@ -50,7 +50,6 @@ const setting = {
 const CapacityBuilding = (props: { onSelectLanguage: any }) => {
    const bahasa = props.onSelectLanguage;
    const [isDragged, setIsDragged] = useState(false);
-   const [activeIndex, setActiveIndex] = useState(-1);
 
    const handleSlideChange = () => {
       setIsDragged(true);
@@ -60,9 +59,30 @@ const CapacityBuilding = (props: { onSelectLanguage: any }) => {
       setIsDragged(false);
    };
 
-   const toggleDescription = (index: number) => {
-      setActiveIndex(index === activeIndex ? -1 : index);
+   const maxCharacters = 100;
+   const [activeIndex, setActiveIndex] = useState(-1);
+
+   const toggleReadMore = (index: number) => {
+     setActiveIndex((prevIndex) => (prevIndex === index ? -1 : index));
    };
+
+  const truncateText = (text: string) => {
+    if (text.length > maxCharacters) {
+      return text.slice(0, maxCharacters) + '...';
+    }
+    return text;
+  };
+
+  const setDescription = (item: any) => {
+    return bahasa === "EN" ? item.description_en.props.children : item.description_id.props.children;
+  };
+
+  const setTruncated = (item: any) => {
+    return bahasa === "EN" ? truncateText(item.description_en.props.children) : truncateText(item.description_id.props.children);
+  };
+
+  const readMore = bahasa === "EN" ? ' read more' : ' lihat selengkapnya';
+  const readLess = bahasa === "EN" ? ' read less' : ' lihat sebelumnya';
 
    return (
       <>
@@ -125,12 +145,13 @@ const CapacityBuilding = (props: { onSelectLanguage: any }) => {
                                     </div>
                                  </div>
                                  <div className="tp-testimonial-five-content">
-                                    <button className=" items-center bg-[#FC0002] hover:bg-[#FC0002] text-sm text-white py-3 px-5 rounded-full" onClick={() => toggleDescription(i)}> {bahasa === "EN" ? next_en : next_id}</button>
-                                    {activeIndex === i && (
-                                       <p>
-                                          {bahasa === "EN" ? item.description_en : item.description_id}
-                                       </p>
+                                    <p>{activeIndex === i ? setDescription(item) : setTruncated(item)}{' '}
+                                    {setDescription(item).length > maxCharacters && (
+                                    <button className="red-custom" onClick={() => toggleReadMore(i)}>
+                                       {activeIndex === i ? readLess : readMore}
+                                    </button>
                                     )}
+                                    </p>
                                  </div>
                               </SwiperSlide>
                            ))}
