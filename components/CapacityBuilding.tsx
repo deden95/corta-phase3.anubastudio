@@ -47,7 +47,7 @@ const setting = {
    },
 };
 
-const TestimonialArea = (props: { onSelectLanguage: string }) => {
+const CapacityBuilding = (props: { onSelectLanguage: any }) => {
    const bahasa = props.onSelectLanguage;
    const [isDragged, setIsDragged] = useState(false);
    const [activeIndex, setActiveIndex] = useState(-1);
@@ -113,7 +113,7 @@ const TestimonialArea = (props: { onSelectLanguage: string }) => {
                                  <div className="tp-testimonial-five-wrapper d-flex justify-content-between align-items-center">
                                     <div className="tp-testimonial-five-top-info d-flex align-items-center">
                                        <div className="tp-testimonial-five-author-info">
-                                          {/* <h4>{bahasa === "EN" ? item.name_en : item.name}</h4> */}
+                                          <h4>{bahasa === "EN" ? item.name_en : item.name}</h4>
                                        </div>
                                     </div>
                                     <div className="tp-testimonial-five-brand d-none d-sm-block">
@@ -145,4 +145,4 @@ const TestimonialArea = (props: { onSelectLanguage: string }) => {
    );
 };
 
-export default TestimonialArea;
+export default CapacityBuilding;
