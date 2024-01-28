@@ -257,7 +257,7 @@ export default function StepMapScrollama(props: any) {
                 alt=""
               />
               <p className="text-xs text-blue-500 mb-3">
-                <a href="https://success-corta.anubastudio.com/public/images/media/17063851382024-01-28_025156.jpg ">
+                <a href="https://success-corta.anubastudio.com/public/images/media/17063851382024-01-28_025156.jpg">
                   {bahasa === "EN" ? (
                     <>Lampung province</>
                   ) : (
