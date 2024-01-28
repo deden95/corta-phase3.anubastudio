@@ -31,10 +31,10 @@ const setting = {
          slidesPerView: 1.3,
       },
       '576': {
-         slidesPerView: 1,
+         slidesPerView: 1.2,
       },
       '0': {
-         slidesPerView: 1,
+         slidesPerView: 1.2,
       },
    },
    scrollbar: {
