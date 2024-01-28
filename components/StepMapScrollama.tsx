@@ -8,7 +8,7 @@ import imgTanggamus from "../public/images/gee-tgm.jpg";
 import imgDesaDampinganManggarai from "../public/images/manggarai-keg01.jpg";
 import imgResikoBanjirManggarai from "../public/images/mgr-bnj.jpg";
 import imgProvLampung from "../public/images/provlampung.jpg";
-import imgProvNTT from "../public/images/ra-ntt.jpg";
+import imgProvNTT from "../public/images/ra-ntt.jpeg";
 import imgDesaDampinganTanggamus from "../public/images/tgm-des.jpeg";
 import layerMap from "./LayerMap";
 const mapboxgl = require("mapbox-gl/dist/mapbox-gl.js");
@@ -410,7 +410,7 @@ export default function StepMapScrollama(props: any) {
                   </>
                 ) : (
                   <>
-                   The NTT region consists of 12 districts (Kabupaten/Kota). The regional expansion process that occurred resulted in the administrative division of the NTT Province in 2019 into 21 districts and 1 city, namely Kupang City, as the capital of the NTT province located on the western part of Timor Island. This province, known for its endemic Komodo wildlife, has a land area of 47,931.54 km². According to the BPS data for the year 2022, the population of the NTT Province has reached 5,446,285 people with a population density of 114 people per km².
+                    The NTT region consists of 12 districts (Kabupaten/Kota). The regional expansion process that occurred resulted in the administrative division of the NTT Province in 2019 into 21 districts and 1 city, namely Kupang City, as the capital of the NTT province located on the western part of Timor Island. This province, known for its endemic Komodo wildlife, has a land area of 47,931.54 km². According to the BPS data for the year 2022, the population of the NTT Province has reached 5,446,285 people with a population density of 114 people per km².
                   </>
                 )}
               </p>
@@ -442,24 +442,12 @@ export default function StepMapScrollama(props: any) {
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    Manggarai Regency is a highland area which dominated by the
-                    shape of the undulating land surface with a land slope of
-                    40% (mountains) which is 38.36% and the slope of the land is
-                    between 15% -40% which is 55.41% of the area of Manggarai
-                    Regency. Manggarai Regency has 12 rivers that have the
-                    potential to flood, from some of these rivers has caused
-                    flooding and caused damage to facilities community and other
-                    public facilities with 22 incidents on year 2019.
+                    Regency is a highland area characterized by undulating landforms, with land slopes ≥40% (mountains) covering an area of 38.36%, and land slopes between 15% to 40% covering an area of 55.41% of the total area of the Manggarai Regency. The regency is home to 12 rivers that are prone to flooding. Several of these rivers have caused floods, resulting in damage to community facilities and other public infrastructure, with 22 incidents recorded in the year 2019. According to the data from the Badan Pusat Statistik (BPS) Indonesia in 2020, Manggarai Regency in the East Nusa Tenggara Province has a population of approximately 368,657 people.
                   </>
                 ) : (
                   <>
                     {" "}
-                    The Manggarai Regency is a highland area characterized by undulating landforms, 
-                    with land slopes ≥40% (mountains) covering an area of 38.36% and land slopes between 15%-40% covering 
-                    55.41% of the total area of the Manggarai Regency, which is 2,096.44 km². 
-                    The population of the regency is 318,115 with a population density of 152 per square kilometer. 
-                    Manggarai Regency has 12 rivers that are prone to flooding, and some of these rivers have caused floods, 
-                    resulting in damage to community facilities and other public amenities with 22 incidents in the year 2019.
+                    Kabupaten Manggarai merupakan daerah dataran tinggi yang didominasi oleh bentuk permukaan daratan yang bergelombang dengan kemiringan lahan ≥40% (pegunungan) yaitu seluas 38,36% dan kemiringan lahan antara 15%-40% yakni seluas 55,41% dari luas wilayah Kabupaten Manggarai. Kabupaten Manggarai memiliki 12 sungai yang berpotensi banjir, dari beberapa sungai tersebut telah menyebabkan banjir dan mengakibatkan rusaknyanya fasilitas masyarakat dan fasilitas umum lainnya dengan 22 Kejadian pada tahun 2019. Menurut data Badan Pusat Statistik (BPS) Indonesia pada tahun 2020, Kabupaten Manggarai di Provinsi Nusa Tenggara Timur memiliki populasi sekitar 368.657 jiwa
                   </>
                 )}
               </p>
@@ -468,7 +456,7 @@ export default function StepMapScrollama(props: any) {
           <Step data={7} key={7}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5 lg:ml-auto">
               <h3 className="font-bold uppercase text-justify mb-2 ">
-                {bahasa === "EN" ? <>Flood Risk</> : <>Risiko Banjir</>}
+                {bahasa === "EN" ? <>Disaster Risk Index Based </> : <>Indeks Resiko Bencana</>}
               </h3>
               <Image 
                 src={imgResikoBanjirManggarai} 
@@ -483,16 +471,12 @@ export default function StepMapScrollama(props: any) {
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    Based on BNPB inaRISK risk assessment, Manggarai district
-                    has a risk index with a value of 0.072 - 0.616 which is low
-                    to moderate.
+                    On the risk assessment by inaRISK BNPB, Tanggamus Regency has a disaster risk index with a value of 149.56, categorizing it as having a high risk. The flood risk is assessed with a value ranging from 0.072 to 0.616, indicating a risk level from low to high (IRBI 2022).
                   </>
                 ) : (
                   <>
                     {" "}
-                    Berdasarkan kajian risiko inaRISK BNPB, kabupaten Manggarai
-                    memiliki indeks risiko dengan nilai 0.072 - 0.616 yaitu
-                    rendah sampai sedang.
+                    Berdasarkan kajian risiko inaRISK BNPB, Kabupaten Tanggamus memiliki indeks risiko bencana  dengan nilai 149,56 dengan kelas resiko tinggi dan resiko banjir dengan nilai  0.072 – 0.616 yaitu rendah sampai tinggi ( IRBI 2022) 
                   </>
                 )}
               </p>
@@ -515,23 +499,11 @@ export default function StepMapScrollama(props: any) {
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    The American Red Cross and PMI implemented this program in
-                    five villages in Reok District, Reok Regency. Apart from the
-                    flood residents in this region also face high risk exposure
-                    against extreme weather, droughts, earthquakes, landslides,
-                    floods, plagues and plagues, tsunamis and storms and
-                    abrasion extreme coast (National Agency for Disaster
-                    Management, 2015).
+                    American Red Cross and the Indonesian Red Cross (PMI) are implementing this program in five villages in the Reok Subdistrict, Reok Regency. In addition to floods, the residents in this area also face high exposure to the risks of extreme weather, drought, earthquakes, landslides, epidemics, tsunamis, as well as extreme coastal storms and erosion (National Disaster Management Agency, 2015).
                   </>
                 ) : (
                   <>
-                    Palang Merah Amerika dan PMI mengimplementasikan program ini
-                    di lima desa di Kecamatan Reok, Kabupaten Reok. Selain
-                    banjir penduduk di wilayah ini juga menghadapi paparan
-                    risiko tinggi terhadap cuaca ekstrem, kekeringan, gempa
-                    bumi, tanah longsor, banjir, wabah penyakit dan wabah,
-                    tsunami serta badai dan abrasi pantai yang ekstrem (Badan
-                    Nasional Penanggulangan Bencana, 2015).
+                    Palang Merah Amerika dan PMI mengimplementasikan program ini di lima desa di Kecamatan Reok, Kabupaten Reok. Selain banjir penduduk di wilayah ini juga menghadapi paparan risiko tinggi terhadap cuaca ekstrem, kekeringan, gempa bumi, tanah longsor, banjir, wabah penyakit dan wabah, tsunami serta badai dan abrasi pantai yang ekstrem (Badan Nasional Penanggulangan Bencana, 2015).
                   </>
                 )}
               </p>
