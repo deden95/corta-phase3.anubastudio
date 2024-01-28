@@ -288,7 +288,7 @@ export default function StepMapScrollama(props: any) {
                 )}
               </h3>
               <Image 
-              src={imgTanggamus} 
+                src={imgTanggamus} 
                 className="w-full" 
                 alt="Regency of Tanggamus"             
               />
@@ -309,7 +309,7 @@ export default function StepMapScrollama(props: any) {
                 ) : (
                   <>
                     {" "}
-                    Kabupaten Tanggamus ini memiliki luas wilayah 4.654,98 Km dan berpenduduk sebanyak 652.898 jiwa (2022) dengan kepadatan penduduk 140 jiwa/km. Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Tanggamus menyatakan ada 12 kecamatan di Bumi Begawi Jejama ini yang masuk dalam katagori rawan bencana banjir dan tanah longsor.Hal ini disebabkan oleh lokasi geografis kabupaten yang berada diwilayah perbukitan disertai sungai-sungai yang berukuran besar.
+                    Kabupaten Tanggamus ini memiliki luas wilayah 4.654,98 Km2 dan berpenduduk sebanyak 652.898 jiwa (2022) dengan kepadatan penduduk 140 jiwa/km2. Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Tanggamus menyatakan ada 12 kecamatan di Bumi Begawi Jejama ini yang masuk dalam katagori rawan bencana banjir dan tanah longsor.Hal ini disebabkan oleh lokasi geografis kabupaten yang berada diwilayah perbukitan disertai sungai-sungai yang berukuran besar.
                   </>
                 )}
               </p>
@@ -354,32 +354,20 @@ export default function StepMapScrollama(props: any) {
                 )}
               </h3>
               <Image 
-                src={imgDesaDampinganTanggamus} 
+                // src={imgDesaDampinganTanggamus}
+                src={imgTanggamus} 
                 className="w-full" 
                 alt=""
               />
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    The American Red Cross and PMI implemented this program in
-                    Semaka District, Tanggamus Regency with reference to agreed
-                    criteria for village selection related to potential elements
-                    of the district-level PMI branch that are for carry out
-                    program coordination and implementation. However, The
-                    increase in PMI branch office capacity remains a main
-                    component to improve institutional readiness.
+                    This program is implemented in the Semaka District, which is prone to floods due to being one of the areas traversed by the Way Samaka River. Additionally, during the rainy season, the tributaries in several villages in Semaka are often unable to accommodate the incoming water, posing the potential risk of water overflow not far from residential areas.
                   </>
                 ) : (
                   <>
                     {" "}
-                    Palang Merah Amerika dan PMI mengimplementasikan program ini
-                    di Kecamatan Semaka, Kabupaten Tanggamus dengan merujuk pada
-                    kriteria yang disepakati untuk pemilihan desa terkait dengan
-                    unsur-unsur potensi cabang PMI tingkat kabupaten yang untuk
-                    menjalankan koordinasi dan implementasi program. Namun
-                    demikian, peningkatan kapasitas kantor cabang PMI ini tetap
-                    menjadi komponen utama untuk meningkatkan kesiapan
-                    kelembagaan.
+                    Program ini diimplementasikan di Kecamatan Semaka yang merupakan daerah rawan banjir dikarenakan merupakan salah satu wilayah yang dilewati oleh sungai Way Samaka, selain itu setiap musim penghujan sering kali anak cabang sungai di beberapa desa samaka tidak mampu menampung kirimina air sehingga berpotensi terjadinya luapan air yang tak jauh dari pemukiman warga. 
                   </>
                 )}
               </p>
@@ -418,25 +406,11 @@ export default function StepMapScrollama(props: any) {
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    The East Nusa Tenggara (NTT) region consists of 12 districts/cities. 
-                    The administrative division process in 2019 resulted in the NTT province 
-                    being divided into 21 districts and 1 city, namely Kupang City, 
-                    serving as the provincial capital located on the western part of Timor Island. 
-                    This province, known for its endemic Komodo wildlife, has a land area of 47,931.54 km². 
-                    According to the 2020 BPS data, the population of the NTT Province reached 5,466,285 people 
-                    with a population density of 114 people per km². When examined by gender, the female population 
-                    is higher than the male population, especially with a gender ratio in the NTT Province in 2020 at 98.19 percent.
+                    Wilayah NTT terdiri atas 12 daerah Kabupaten/Kota. Proses pemekaran wilayah yang terjadi menjadikan wilayah administratif Provinsi NTT pada tahun 2019 terbagi atas 21 Kabupaten dan 1 Kota yaitu Kota Kupang, sebagai ibukota provinsi NTT yang berada bagian barat Pulau Timor. Provinsi dengan satwa endemik Komodo ini memiliki luas wilayah darat 47.931,54 km2. Berdasarkan data BPS tahun 2022, jumlah populasi di Provinsi NTT mencapai 5.446.285 jiwa dengan kepadatan penduduk sebesar 114 jiwa per km2. 
                   </>
                 ) : (
                   <>
-                    Wilayah NTT terdiri atas 12 daerah Kabupaten/Kota. Proses pemekaran wilayah
-                     yang terjadi menjadikan wilayah administratif Provinsi NTT pada tahun 2019 
-                     terbagi atas 21 Kabupaten dan 1 Kota yaitu Kota Kupang, sebagai ibukota provinsi
-                     NTT yang berada bagian barat Pulau Timor. Provinsi dengan satwa endemik Komodo ini 
-                     memiliki luas wilayah darat 47.931,54 km2. Berdasarkan data BPS tahun 2020, jumlah 
-                     populasi di Provinsi NTT mencapai 5.466.285 jiwa dengan kepadatan penduduk sebesar 114 jiwa per km2.
-                     Jika dilihat berdasarkan jenis kelamin, penduduk dengan jenis kelamin perempuan lebih tinggi daripada laki-laki
-                     terutama dengan rasio jenis kelamin di Provinsi NTT tahun 2020 sebesar 98,19 perasen.
+                   The NTT region consists of 12 districts (Kabupaten/Kota). The regional expansion process that occurred resulted in the administrative division of the NTT Province in 2019 into 21 districts and 1 city, namely Kupang City, as the capital of the NTT province located on the western part of Timor Island. This province, known for its endemic Komodo wildlife, has a land area of 47,931.54 km². According to the BPS data for the year 2022, the population of the NTT Province has reached 5,446,285 people with a population density of 114 people per km².
                   </>
                 )}
               </p>
