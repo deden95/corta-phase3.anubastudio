@@ -291,7 +291,7 @@ html {
 }
 .tp-testimonial__author-info span {
   font-weight: 700;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 20px;
   display: block;
   color: #fff;
@@ -984,4 +984,13 @@ html {
 .img-capacity {
   width: 100%;
   height: 100%;
+}
+
+.swiper-slide, swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  /* height: 100%; */
+  position: relative;
+  transition-property: transform;
+  display: block;
 }
