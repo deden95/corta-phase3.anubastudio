@@ -14,7 +14,7 @@ const { bg_img, title_id, title_en,next_en,next_id } = testimonial_content;
 
 const setting = {
    loop: true,
-   slidesPerView: 2.2,
+   slidesPerView: 2.7,
    spaceBetween: 20,
    pagination: {
       el: '.swiper-pagination',
@@ -22,7 +22,7 @@ const setting = {
    },
    breakpoints: {
       '1200': {
-         slidesPerView: 2.2,
+         slidesPerView: 2.7,
       },
       '992': {
          slidesPerView: 1.3,
@@ -138,7 +138,7 @@ const CapacityBuilding = (props: { onSelectLanguage: any }) => {
                                     </div>
                                     <div className="tp-testimonial-five-brand d-none d-sm-block">
                                        <img
-                                          className="w-full aspect-video youtube mt-5"
+                                          className="img-capacity mt-5"
                                           src={item.url}
                                           alt="testimonial"
                                        />
