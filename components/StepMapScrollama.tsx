@@ -308,11 +308,11 @@ export default function StepMapScrollama(props: any) {
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    The Regency of Tanggamus covers an area of 4,654.98 square kilometers and has a population of 652,898 people (2022) with a population density of 140 people per square kilometer. The Regional Disaster Management Agency (BPBD) of Tanggamus Regency states that there are 12 districts in this Land of Begawi Jejama that fall into the category of flood and landslide-prone areas. This is due to the regency's geographical location in hilly terrain, coupled with large-sized rivers.
+                    The Regency of Tanggamus covers an area of 4,654.98 square kilometers and has a population of 652,898 people (2022) with a population density of 140 people per square kilometer. The Regional Disaster Management Agency (BPBD) of Tanggamus Regency states that there are 12 districts in this Land of Begawi Jejama that fall into the category of flood and landslide-prone areas. This is due to the regency geographical location in hilly terrain, coupled with large-sized rivers.
                   </>
                 ) : (
                   <>
-                    Kabupaten Tanggamus ini memiliki luas wilayah 4.654,98 Km² dan berpenduduk sebanyak 652.898 jiwa (2022) dengan kepadatan penduduk 140 jiwa/km². Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Tanggamus menyatakan ada 12 kecamatan di Bumi Begawi Jejama ini yang masuk dalam katagori rawan bencana banjir dan tanah longsor.Hal ini disebabkan oleh lokasi geografis kabupaten yang berada diwilayah perbukitan disertai sungai-sungai yang berukuran besar.
+                    Kabupaten Tanggamus ini memiliki luas wilayah 4.654,98 Km dan berpenduduk sebanyak 652.898 jiwa (2022) dengan kepadatan penduduk 140 jiwa/km. Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Tanggamus menyatakan ada 12 kecamatan di Bumi Begawi Jejama ini yang masuk dalam katagori rawan bencana banjir dan tanah longsor.Hal ini disebabkan oleh lokasi geografis kabupaten yang berada diwilayah perbukitan disertai sungai-sungai yang berukuran besar.
                   </>
                 )}
               </p>
