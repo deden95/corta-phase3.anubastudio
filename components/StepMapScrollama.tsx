@@ -254,9 +254,7 @@ export default function StepMapScrollama(props: any) {
               <Image 
                 src={imgProvLampung} 
                 className="w-full" 
-                alt="Province of Lampung"
-                width={800}
-                height={600}
+                alt="Province of Lampung"                
               />
               <p className="text-xs text-blue-500 mb-3">
                 <a href="https://lampung.bps.go.id/publication/2021/09/03/71dfb425039080bb0d5617d0/potret-sensus-penduduk-2020-provinsi-lampung.html">
@@ -292,9 +290,7 @@ export default function StepMapScrollama(props: any) {
               <Image 
               src={imgTanggamus} 
                 className="w-full" 
-                alt="Regency of Tanggamus"
-                width={800}
-                height={600}
+                alt="Regency of Tanggamus"             
               />
               <p className="text-xs text-blue-500 mb-3">
                 <a href="https://kimyrae1.users.earthengine.app/view/banjir-kabupaten-tanggamus-2021">
@@ -312,6 +308,7 @@ export default function StepMapScrollama(props: any) {
                   </>
                 ) : (
                   <>
+                    {" "}
                     Kabupaten Tanggamus ini memiliki luas wilayah 4.654,98 Km dan berpenduduk sebanyak 652.898 jiwa (2022) dengan kepadatan penduduk 140 jiwa/km. Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Tanggamus menyatakan ada 12 kecamatan di Bumi Begawi Jejama ini yang masuk dalam katagori rawan bencana banjir dan tanah longsor.Hal ini disebabkan oleh lokasi geografis kabupaten yang berada diwilayah perbukitan disertai sungai-sungai yang berukuran besar.
                   </>
                 )}
@@ -322,7 +319,7 @@ export default function StepMapScrollama(props: any) {
           <Step data={3} key={3}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5 lg:ml-auto">
               <h3 className="font-bold uppercase text-justify mb-2 ">
-                {bahasa === "EN" ? <>Flood Risk</> : <> Risiko Banjir</>}
+                {bahasa === "EN" ? <>Disaster Risk Index</> : <> Indeks Resiko Bencana</>}
               </h3>
               <Image 
                 src={imgResikoBanjirTanggamus} 
@@ -337,15 +334,11 @@ export default function StepMapScrollama(props: any) {
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    Based on BNPB inaRISK risk assessment, Tanggamus Regency
-                    has a disaster risk index with a value of 0.083 - 0.658,
-                    namely low to high.
+                    According to the risk assessment from inaRISK BNPB, Tanggamus Regency has a disaster risk index with a value of 149.56, indicating a high-risk class. The flood risk is assessed with a value ranging from 0.083 to 0.658, categorizing it as low to high (IRBI 2022).
                   </>
                 ) : (
                   <>
-                    Berdasarkan kajian risiko inaRISK BNPB, Kabupaten Tanggamus
-                    memiliki indeks risiko bencana dengan nilai 0.083 - 0.658
-                    yaitu rendah sampai tinggi.
+                    Berdasarkan kajian risiko inaRISK BNPB, Kabupaten Tanggamus memiliki indeks risiko bencana  dengan nilai 149,56 dan kelas resiko tinggi dan resiko banjir dengan nilai  0.083 - 0.658 yaitu rendah sampai tinggi ( IRBI 2022) 
                   </>
                 )}
               </p>
