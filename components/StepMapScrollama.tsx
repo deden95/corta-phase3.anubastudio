@@ -406,11 +406,11 @@ export default function StepMapScrollama(props: any) {
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    Wilayah NTT terdiri atas 12 daerah Kabupaten/Kota. Proses pemekaran wilayah yang terjadi menjadikan wilayah administratif Provinsi NTT pada tahun 2019 terbagi atas 21 Kabupaten dan 1 Kota yaitu Kota Kupang, sebagai ibukota provinsi NTT yang berada bagian barat Pulau Timor. Provinsi dengan satwa endemik Komodo ini memiliki luas wilayah darat 47.931,54 km2. Berdasarkan data BPS tahun 2022, jumlah populasi di Provinsi NTT mencapai 5.446.285 jiwa dengan kepadatan penduduk sebesar 114 jiwa per km2. 
+                   The NTT region consists of 12 districts (Kabupaten/Kota). The regional expansion process that occurred resulted in the administrative division of the NTT Province in 2019 into 21 districts and 1 city, namely Kupang City, as the capital of the NTT province located on the western part of Timor Island. This province, known for its endemic Komodo wildlife, has a land area of 47,931.54 km². According to the BPS data for the year 2022, the population of the NTT Province has reached 5,446,285 people with a population density of 114 people per km².
                   </>
                 ) : (
                   <>
-                    The NTT region consists of 12 districts (Kabupaten/Kota). The regional expansion process that occurred resulted in the administrative division of the NTT Province in 2019 into 21 districts and 1 city, namely Kupang City, as the capital of the NTT province located on the western part of Timor Island. This province, known for its endemic Komodo wildlife, has a land area of 47,931.54 km². According to the BPS data for the year 2022, the population of the NTT Province has reached 5,446,285 people with a population density of 114 people per km².
+                   Wilayah NTT terdiri atas 12 daerah Kabupaten/Kota. Proses pemekaran wilayah yang terjadi menjadikan wilayah administratif Provinsi NTT pada tahun 2019 terbagi atas 21 Kabupaten dan 1 Kota yaitu Kota Kupang, sebagai ibukota provinsi NTT yang berada bagian barat Pulau Timor. Provinsi dengan satwa endemik Komodo ini memiliki luas wilayah darat 47.931,54 km2. Berdasarkan data BPS tahun 2022, jumlah populasi di Provinsi NTT mencapai 5.446.285 jiwa dengan kepadatan penduduk sebesar 114 jiwa per km2. 
                   </>
                 )}
               </p>
