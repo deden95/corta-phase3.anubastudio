@@ -300,7 +300,7 @@ export default function StepMapScrollama(props: any) {
                 alt=""
               />
               <p className="text-xs text-blue-500 mb-3">
-                <a href="https://success-corta.anubastudio.com/public/images/media/1706384843IMG_20230306_095559.jpg ">
+                <a href="https://success-corta.anubastudio.com/public/images/media/1706384843IMG_20230306_095559.jpg">
                   {bahasa === "EN" ? (
                     <>Google Earth Engine Alluvionne analysis</>
                   ) : (
