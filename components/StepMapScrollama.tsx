@@ -251,10 +251,12 @@ export default function StepMapScrollama(props: any) {
                   <>Provinsi Lampung</>
                 )}
               </h3>
-              <img 
-                src="https://success-corta.anubastudio.com/public/images/media/17063851382024-01-28_025156.jpg" 
+              <Image 
+                src={imgProvLampung} 
                 className="w-full" 
-                alt=""
+                alt="Province of Lampung"
+                width={800}
+                height={600}
               />
               <p className="text-xs text-blue-500 mb-3">
                 <a href="https://lampung.bps.go.id/publication/2021/09/03/71dfb425039080bb0d5617d0/potret-sensus-penduduk-2020-provinsi-lampung.html">
@@ -287,10 +289,12 @@ export default function StepMapScrollama(props: any) {
                   <>Kabupaten Tanggamus</>
                 )}
               </h3>
-              <img 
-                src="https://success-corta.anubastudio.com/public/images/media/1706384843IMG_20230306_095559.jpg" 
+              <Image 
+              src={imgTanggamus} 
                 className="w-full" 
-                alt=""
+                alt="Regency of Tanggamus"
+                width={800}
+                height={600}
               />
               <p className="text-xs text-blue-500 mb-3">
                 <a href="https://kimyrae1.users.earthengine.app/view/banjir-kabupaten-tanggamus-2021">
