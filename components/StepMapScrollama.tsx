@@ -311,11 +311,7 @@ export default function StepMapScrollama(props: any) {
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                   The Regency of Tanggamus covers an area of 4,654.98 square kilometers and has a 
-                   population of 652,898 people (2022) with a population density of 140 people per square kilometer. 
-                   The Regional Disaster Management Agency (BPBD) of Tanggamus Regency states that there are 12 districts in this Land of 
-                   Begawi Jejama that fall into the category of flood and landslide-prone areas. This is due to the regency's geographical 
-                   location in hilly terrain, coupled with large-sized rivers.
+                  The Regency of Tanggamus covers an area of 4,654.98 square kilometers and has a population of 652,898 people (2022) with a population density of 140 people per square kilometer. The Regional Disaster Management Agency (BPBD) of Tanggamus Regency states that there are 12 districts in this Land of Begawi Jejama that fall into the category of flood and landslide-prone areas. This is due to the regency's geographical location in hilly terrain, coupled with large-sized rivers.
                   </>
                 ) : (
                   <>
