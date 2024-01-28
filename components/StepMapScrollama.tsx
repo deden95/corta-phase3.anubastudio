@@ -246,20 +246,20 @@ export default function StepMapScrollama(props: any) {
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5 lg:ml-auto">
               <h3 className="font-bold uppercase text-justify mb-2 ">
                 {bahasa === "EN" ? (
-                  <>Lampung province</>
+                  <>Province of Lampung</>
                 ) : (
-                  <> Provinsi Lampung</>
+                  <>Provinsi Lampung</>
                 )}
               </h3>
-              <Image 
-                src={imgProvLampung} 
+              <img 
+                src="https://success-corta.anubastudio.com/public/images/media/17063851382024-01-28_025156.jpg" 
                 className="w-full" 
                 alt=""
               />
               <p className="text-xs text-blue-500 mb-3">
-                <a href="https://success-corta.anubastudio.com/public/images/media/17063851382024-01-28_025156.jpg">
+                <a href="https://lampung.bps.go.id/publication/2021/09/03/71dfb425039080bb0d5617d0/potret-sensus-penduduk-2020-provinsi-lampung.html">
                   {bahasa === "EN" ? (
-                    <>Lampung province</>
+                    <>Province of Lampung</>
                   ) : (
                     <>Provinsi Lampung</>
                   )}
@@ -267,8 +267,8 @@ export default function StepMapScrollama(props: any) {
               </p>
               <p className="text-justify">
                 {bahasa === "EN" ? (
-                  <>                    
-                  The Province of Lampung has an area of 33,553.55 square kilometers with a population of 9,176,546 people and a population density of 270 people per square kilometer in the year 2022. This figure has increased compared to the 2010 Population Census data, which recorded a population density of 220 people per square kilometer for the Province of Lampung and 192 people per square kilometer based on the 2000 Population Census.
+                  <>
+                    The Province of Lampung has an area of 33,553.55 square kilometers with a population of 9,176,546 people and a population density of 270 people per square kilometer in the year 2022. This figure has increased compared to the 2010 Population Census data, which recorded a population density of 220 people per square kilometer for the Province of Lampung and 192 people per square kilometer based on the 2000 Population Census.
                   </>
                 ) : (
                   <>
@@ -282,39 +282,39 @@ export default function StepMapScrollama(props: any) {
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5">
               <h3 className="font-bold uppercase text-justify mb-2 ">
                 {bahasa === "EN" ? (
-                  <>Regency of TANGGAMUS</>
+                  <>Regency of Tanggamus</>
                 ) : (
-                  <>Kabupaten TANGGAMUS</>
+                  <>Kabupaten Tanggamus</>
                 )}
               </h3>
-              <Image 
-                src={imgTanggamus} 
+              <img 
+                src="https://success-corta.anubastudio.com/public/images/media/1706384843IMG_20230306_095559.jpg" 
                 className="w-full" 
                 alt=""
               />
               <p className="text-xs text-blue-500 mb-3">
-                <a href="https://success-corta.anubastudio.com/public/images/media/1706384843IMG_20230306_095559.jpg">
+                <a href="https://kimyrae1.users.earthengine.app/view/banjir-kabupaten-tanggamus-2021">
                   {bahasa === "EN" ? (
                     <>Google Earth Engine Alluvionne analysis</>
                   ) : (
-                    <> Analisis Google Earth Engine Alluvionne</>
+                    <>Analisis Google Earth Engine Alluvionne</>
                   )}
                 </a>
               </p>
               <p className="text-justify ">
                 {bahasa === "EN" ? (
                   <>
-                    The Regency of Tanggamus covers an area of 4,654.98 square kilometers and has a population of 652,898 people (2022) with a population density of 140 people per square kilometer. The Regional Disaster Management Agency (BPBD) of Tanggamus Regency states that there are 12 districts in this Land of Begawi Jejama that fall into the category of flood and landslide-prone areas. This is due to the regency's geographical location in hilly terrain, coupled with large-sized rivers..
+                    The Regency of Tanggamus covers an area of 4,654.98 square kilometers and has a population of 652,898 people (2022) with a population density of 140 people per square kilometer. The Regional Disaster Management Agency (BPBD) of Tanggamus Regency states that there are 12 districts in this Land of Begawi Jejama that fall into the category of flood and landslide-prone areas. This is due to the regency's geographical location in hilly terrain, coupled with large-sized rivers.
                   </>
                 ) : (
                   <>
-                    {" "}
                     Kabupaten Tanggamus ini memiliki luas wilayah 4.654,98 Km² dan berpenduduk sebanyak 652.898 jiwa (2022) dengan kepadatan penduduk 140 jiwa/km². Badan Penanggulangan Bencana Daerah (BPBD) Kabupaten Tanggamus menyatakan ada 12 kecamatan di Bumi Begawi Jejama ini yang masuk dalam katagori rawan bencana banjir dan tanah longsor.Hal ini disebabkan oleh lokasi geografis kabupaten yang berada diwilayah perbukitan disertai sungai-sungai yang berukuran besar.
                   </>
                 )}
               </p>
             </div>
           </Step>
+
           <Step data={3} key={3}>
             <div className="my-96 lg:bg-white/100 bg-white/50 rounded-md md:w-1/3 sm:w-1/2 py-2.5 px-5 lg:mx-14 mx-4 mb-3.5 lg:ml-auto">
               <h3 className="font-bold uppercase text-justify mb-2 ">
