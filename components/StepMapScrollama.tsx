@@ -257,7 +257,7 @@ export default function StepMapScrollama(props: any) {
                 alt=""
               />
               <p className="text-xs text-blue-500 mb-3">
-                <a href="https://kimyrae1.users.earthengine.app/view/banjir-kabupaten-tanggamus-2021">
+                <a href="https://success-corta.anubastudio.com/public/images/media/17063851382024-01-28_025156.jpg">
                   {bahasa === "EN" ? (
                     <>Lampung province</>
                   ) : (
@@ -300,7 +300,7 @@ export default function StepMapScrollama(props: any) {
                 alt=""
               />
               <p className="text-xs text-blue-500 mb-3">
-                <a href="https://kimyrae1.users.earthengine.app/view/banjir-kabupaten-tanggamus-2021">
+                <a href="https://success-corta.anubastudio.com/public/images/media/1706384843IMG_20230306_095559.jpg">
                   {bahasa === "EN" ? (
                     <>Google Earth Engine Alluvionne analysis</>
                   ) : (
