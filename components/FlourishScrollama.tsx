@@ -233,7 +233,7 @@ export default function FlourishScrollama(props: any) {
                 </p>
               </div>
             </Step>
-            <Step data={8} key={8}>
+            {/* <Step data={8} key={8}>
               <div className="lg:my-96 my-10 bg-red-600 text-white rounded-md lg:p-10 lg:mx-10 p-8 mx-6">
                 <p className="font-semibold text-center pb-5 text-xl">
                   {bahasa === "EN" ? (
@@ -311,7 +311,7 @@ export default function FlourishScrollama(props: any) {
                   )}
                 </p>
               </div>
-            </Step>
+            </Step> */}
           </Scrollama>
         </div>
         <div className={style.graphic}>
@@ -321,7 +321,7 @@ export default function FlourishScrollama(props: any) {
             className="h-full"
             scrolling="no"
             src={
-              `https://public.flourish.studio/story/1072910/embed#slide-` +
+              `https://public.flourish.studio/story/2161837/embed#slide-` +
               currentStepIndex
             }
           />
