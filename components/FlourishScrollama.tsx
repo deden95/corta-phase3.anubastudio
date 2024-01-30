@@ -15,8 +15,20 @@ export default function FlourishScrollama(props: any) {
   };
 
   return (
-    <div className="relative z-40 bg-white pt-20" style={{ fontFamily: "trebuchet" }}>
+    <div className="relative z-40 bg-white pt-10" style={{ fontFamily: "trebuchet" }}>
       <div className="px-auto py-auto flex flex-col sm:flex-row">
+      <div className={style.graphic}>
+          <iframe
+            width="100%"
+            height="100%"
+            className="h-full"
+            scrolling="no"
+            src={
+              `https://public.flourish.studio/story/2161837/embed#slide-` +
+              currentStepIndex
+            }
+          />
+        </div>
         <div className="basis-1/3">
           <Scrollama onStepEnter={onStepEnter}>
             <Step data={1} key={1}>
@@ -314,18 +326,7 @@ export default function FlourishScrollama(props: any) {
             </Step> */}
           </Scrollama>
         </div>
-        <div className={style.graphic}>
-          <iframe
-            width="100%"
-            height="100%"
-            className="h-full"
-            scrolling="no"
-            src={
-              `https://public.flourish.studio/story/2161837/embed#slide-` +
-              currentStepIndex
-            }
-          />
-        </div>
+
       </div>
     </div>
   );
