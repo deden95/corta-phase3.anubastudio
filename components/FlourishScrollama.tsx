@@ -115,7 +115,7 @@ export default function FlourishScrollama(props: any) {
                     </>
                   ) : (
                     <>
-                      Total 360 responden (48% perempuan & 52% laki – laki)
+                      Total 360 responden (48% perempuan & 52% laki - laki)
                       Rata-rata usia responden 46 tahun
                       47 tahun untuk laki-laki &  46 tahun untuk perempuan
                       46 tahun di Manggarai & 46 tahun di Tanggamus 
@@ -170,7 +170,7 @@ export default function FlourishScrollama(props: any) {
                 <p className="text-justify text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      From the graph, the majority of respondents' knowledge and actions related to disasters have increased.
+                      From the graph, the majority of respondents knowledge and actions related to disasters have increased.
                     </>
                   ) : (
                     <>
