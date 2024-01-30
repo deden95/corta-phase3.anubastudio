@@ -28,13 +28,13 @@ const setting = {
          slidesPerView: 1.3,
       },
       '768': {
-         slidesPerView: 1.3,
+         slidesPerView: 1.2,
       },
       '576': {
-         slidesPerView: 1.2,
+         slidesPerView: 1.1,
       },
       '0': {
-         slidesPerView: 1.2,
+         slidesPerView: 1.1,
       },
    },
    scrollbar: {

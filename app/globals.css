@@ -265,7 +265,7 @@ html {
 }
 @media (max-width: 767px) {
   .tp-testimonial__left-item {
-      padding: 30px;
+      padding: 20px;
  }
 }
 .tp-testimonial__bottom-img {
@@ -656,7 +656,7 @@ html {
 @media (max-width: 767px) {
   .tp-testimonial-3-content-box p {
       padding-right: 0px;
-      font-size: 18px;
+      font-size: 16px;
       line-height: 26px;
       padding-bottom: 15px;
  }
@@ -778,8 +778,12 @@ html {
 }
 @media (max-width: 767px) {
   .tp-testimonial-five-wrapper {
-      padding: 25px;
+      padding: 8px;
+      font-size: 11px;
+      line-height: 26px;
+      padding: 10px;
  }
+ 
 }
 .tp-testimonial-five-avata {
   margin-right: 20px;
@@ -802,7 +806,7 @@ html {
 }
 @media (max-width: 767px) {
   .tp-testimonial-five-author-info span {
-      font-size: 14px;
+      font-size: 11px;
  }
 }
 .tp-testimonial-five-content {
@@ -815,7 +819,7 @@ html {
 }
 @media (max-width: 767px) {
   .tp-testimonial-five-content {
-      padding: 25px;
+      padding: 5px;
  }
 }
 .tp-testimonial-five-content p {
@@ -854,7 +858,7 @@ html {
 }
 @media (max-width: 767px) {
   .tp-testimonial-five-content p {
-      font-size: 16px;
+      font-size: 14px;
       line-height: 26px;
       padding-right: 0px;
  }
