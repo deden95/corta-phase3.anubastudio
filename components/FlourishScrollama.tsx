@@ -35,25 +35,24 @@ export default function FlourishScrollama(props: any) {
               <div className="lg:my-96 my-10 my-10 bg-red-600 text-white rounded-md lg:p-10 lg:mx-10 p-8 mx-6">
                 <p className="font-semibold text-center pb-5 text-xl">
                   {bahasa === "EN" ? (
-                    <>Distribution of Respondents</>
+                    <>DISTRIBUTION OF RESPONDENTS FROM THE COMMUNITY</>
                   ) : (
-                    <>Sebaran Responden</>
+                    <>SEBARAN RESPONDEN DARI MASYARAKAT</>
                   )}
                 </p>
                 <p className="text-justify text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      Respondents to the FDRCSI-DRR household baseline survey
-                      covered 397 adults are spread over 2 districts, namely
-                      Manggarai Regency as many as 180 people and Tanggamus
-                      Regency as many as 234 people.
+                      Respondents of the Basic Community Survey 
+                      consist of 360 adults distributed across 12 
+                      villages and 2 districts, namely Manggarai District 
+                      with 175 individuals and Tanggamus District with 185 individuals.
                     </>
                   ) : (
                     <>
-                      Responden survei dasar rumah tangga FDRCSI-DRR mencakup
-                      397 orang dewasa tersebar di 2 Kabupaten yaitu Kabupaten
-                      Manggarai sebanyak 180 orang dan Kabupaten Tanggamus
-                      sebanyak 234 orang.
+                      Responden survei dasar Masyarakat mencakup 360 orang dewasa 
+                      tersebar di 12 desa dan 2 Kabupaten yaitu Kabupaten Manggarai 
+                      sebanyak 175 orang dan Kabupaten Tanggamus sebanyak 185 orang.
                     </>
                   )}
                 </p>
@@ -63,28 +62,27 @@ export default function FlourishScrollama(props: any) {
               <div className="lg:my-96 my-10 bg-red-600 text-white rounded-md lg:p-10 lg:mx-10 p-8 mx-6">
                 <p className="font-semibold text-center pb-5 text-xl">
                   {bahasa === "EN" ? (
-                    <>
-                      Types of Disasters that occurred in the respondent
-                      village
+                    <>                   
+                      DISTRIBUTION OF RESPONDENTS FROM SCHOOLS
                     </>
                   ) : (
-                    <> Jenis Bencana yang terjadi di desa responden</>
+                    <>SEBARAN RESPONDEN DARI SEKOLAH</>
                   )}
                 </p>
                 <p className="text-justify text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      Of the types of disaster risk asked, respondents are more
-                      knowing the flood response actions which are the main
-                      risks in the target area, respondents in Manggarai
-                      understand better than respondents in Tanggamus.
+                      Respondents of the Basic Student Survey, 
+                      comprising 274 adult students, are distributed across 12 
+                      schools and 2 districts, with 131 individuals in Manggarai 
+                      District and 143 individuals in Tanggamus District.
                     </>
                   ) : (
                     <>
-                      Dari jenis risiko bencana yang ditanyakan, responden lebih
-                      mengetahui tindakan respon banjir yang merupakan risiko
-                      utama di wilayah sasaran, responden di Manggarai lebih
-                      paham daripada responden di Tanggamus.
+                      Responden survei dasar Siswa dan Siswi  
+                      274 orang dewasa tersebar di 12 Sekolah dan 2 
+                      Kabupaten yaitu Kabupaten Manggarai sebanyak 131 
+                      orang dan Kabupaten Tanggamus sebanyak 143 orang.
                     </>
                   )}
                 </p>
@@ -95,34 +93,36 @@ export default function FlourishScrollama(props: any) {
                 <p className="font-semibold text-center pb-5 text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      Type of Disaster that occurred in the respondent village
-                      (per district)
+                      COMMUNITY RESPONDENT PROFILE
                     </>
                   ) : (
                     <>
-                      Jenis Bencana yang terjadi di desa responden (per
-                      kabupaten)
+                      PROFIL RESPONDEN MASYARAKAT
                     </>
                   )}
                 </p>
                 <p className="text-justify text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      The majority of respondents (257 respondents or 65%) were
-                      able to mention at least one potential hazard whereas 107
-                      respondents (27%) can mention two potential hazards, 21
-                      respondents (5%) can mentioned three potential hazards and
-                      only nine respondents (2%) who can name four potential
-                      hazards.
+                      Total of 360 respondents (48% female & 52% male)
+                      Average age of respondents is 46 years
+                      47 years for males & 46 years for females
+                      Average age in Manggarai & Tanggamus is 46 years
+                      Average education level of respondents: Elementary School (Tanggamus) & High School (Manggarai)
+                      Ethnicity
+                      Manggarai: Manggarai (79%), Bima (11%), Bugis (3%), others (1%)
+                      Tanggamus: Javanese (77%), Lampung (22%), Sundanese & Bantenese (1%)
                     </>
                   ) : (
                     <>
-                      Mayoritas responden (257 responden atau 65%) mampu
-                      menyebutkan setidaknya satu potensi bahaya sedangkan 107
-                      responden (27%) dapat menyebutkan dua potensi bahaya, 21
-                      responden (5%) dapat menyebutkan tiga potensi bahaya dan
-                      hanya sembilan responden (2%) yang dapat menyebutkan empat
-                      potensi bahaya.
+                      Total 360 responden (48% perempuan & 52% laki – laki)
+                      Rata-rata usia responden 46 tahun
+                      47 tahun untuk laki-laki &  46 tahun untuk perempuan
+                      46 tahun di Manggarai & 46 tahun di Tanggamus 
+                      Rata-rata pendidikan responden SD (Tanggamus) & SMA (Manggarai)
+                      Suku
+                      Manggarai: Manggarai (79%), Bima (11%), Bugis (3%), lainnya (1%)
+                      Tanggamus: Jawa (77%), Lampung (22%), Sunda & Banten (1%)
                     </>
                   )}
                 </p>
@@ -132,28 +132,23 @@ export default function FlourishScrollama(props: any) {
               <div className="lg:my-96 my-10 bg-red-600 text-white rounded-md lg:p-10 lg:mx-10 p-8 mx-6">
                 <p className="font-semibold text-center pb-5 text-xl">
                   {bahasa === "EN" ? (
-                    <>
-                      Does the respondent village have an early warning
-                      system?
+                    <>                      
+                      COMMUNITY DISASTER AWARENESS
                     </>
                   ) : (
                     <>
-                      Apakah di desa responden memiliki sistem peringatan dini?
+                      PENGETAHUAN KEBENCANAAN MASYARAKAT
                     </>
                   )}
                 </p>
                 <p className="text-justify text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      Of the total respondents in the two districts, the
-                      majority stated <b>dont know</b> if his village has a
-                      system early warning.
+                      From the total respondents in both districts, awareness of the minimum threat in the village can be seen from the increase in Baseline and Endline related to knowledge about risks in the village, sources of early warning information, and actions after receiving early warnings.
                     </>
                   ) : (
                     <>
-                      Dari total responden di kedua Kabupaten, mayoritas
-                      menyatakan <b>tidak mengetahui</b> apakah di desanya
-                      memiliki sistem peringatan dini.
+                      Dari total responden di kedua Kabupaten, Pengetahuan terhadap minimal ancaman di desa Bisa di lihat dari peningkatan Baseline dan Endline terkait Pengetahuan tentang risiko di desa, Sumber informasi peringatan dini dan tindakan setelah menerima peringatan dini
                     </>
                   )}
                 </p>
@@ -164,28 +159,22 @@ export default function FlourishScrollama(props: any) {
                 <p className="font-semibold text-center pb-5 text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      Does the respondent village have an early warning
-                      system? (per district)
+                      Knowledge & Actions Related to Disasters
                     </>
                   ) : (
                     <>
-                      Apakah di desa responden memiliki sistem peringatan dini?
-                      (per kabupaten)
+                      Pengetahuan & Tindakan Terkait Bencana
                     </>
                   )}
                 </p>
                 <p className="text-justify text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      When viewed from the graph, the majority of respondents
-                      from both The district is not aware of an early warning
-                      system in their village.
+                      From the graph, the majority of respondents' knowledge and actions related to disasters have increased.
                     </>
                   ) : (
                     <>
-                      Bila dilihat dari grafik, mayoritas responden dari kedua
-                      Kabupaten tidak mengetahui adanya sistem peringatan dini
-                      di desa mereka.
+                      Bila dilihat dari grafik, mayoritas responden Pengetahuan dan tindakan terkait bencana meningkat.
                     </>
                   )}
                 </p>
@@ -196,28 +185,30 @@ export default function FlourishScrollama(props: any) {
                 <p className="font-semibold text-center pb-5 text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      Where do respondents get early warning information from?
+                      ATTITUDE TOWARDS DISASTERS
                     </>
                   ) : (
                     <>
                       {" "}
-                      Darimana responden mendapatkan informasi peringatan dini?
+                      SIKAP TERHADAP BENCANA
                     </>
                   )}
                 </p>
                 <p className="text-justify text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      In this graph, the 3 biggest responses to get information
-                      early warning is through friends, natural phenomena and
-                      cellphones
+                      Concern about disasters in their village
+                      Baseline 90% - Endline 97%
+                      Disasters can have a significant and very significant impact
+                      Baseline 73% - Endline 69%
                     </>
                   ) : (
                     <>
                       {" "}
-                      Pada grafik ini, 3 respon terbesar untuk mendapatkan
-                      informasi peringatan dini adalah melalui teman, gejala
-                      alam dan HP
+                      Khawatir terhadap bencana di desanya
+                      Baseline 9o%  - Endline 97%
+                      Bencana bisa berikan dampak besar & sangat besar
+                      Baseline 73%  - Endline 69%
                     </>
                   )}
                 </p>
@@ -228,20 +219,25 @@ export default function FlourishScrollama(props: any) {
                 <p className="font-semibold text-center pb-5 text-xl">
                   {bahasa === "EN" ? (
                     <>
-                      Where do respondents get early warning information from?
-                      (per district)
+                      MOST EFFECTIVE COMMUNICATION CHANNEL
                     </>
                   ) : (
                     <>
-                      Darimana responden mendapatkan informasi peringatan dini?
-                      (per kabupaten)
+                      SALURAN KOMUNIKASI PALING EFEKTIF
                     </>
                   )}
                 </p>
                 <p className="text-justify text-xl">
-                  {bahasa === "EN" ? <></> : <></>}
-                  Responden di kedua Kabupaten menyatakan tidak mengetahui
-                  darimana mendapatkan informasi peringatan dini.
+                  {bahasa === "EN" ? (
+                      <>
+                        Community engagement methods and trust in the Red Cross (PMI) increased from 14% to 78%.
+                      </>
+                    ) : (
+                      <>
+                        {" "}
+                        Metode Keterlibatan Masyarakat dan kepercayaan terhadap PMI meningkat dari 14% menjadi 78%
+                      </>
+                    )}                 
                 </p>
               </div>
             </Step>
