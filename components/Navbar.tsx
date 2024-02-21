@@ -146,7 +146,7 @@ export default function Navbar(props: any) {
             )}
 
             <Link 
-              href="https://success-corta.anubastudio.com/"
+              href="https://kisahsuksescorta.pmi.or.id/"
               className={`${pathname === '/' ? 'font-bold' : ''}`}
             >
                 {translate === "EN" ? <>Success Story</> : <> Kisah Sukses</>}
